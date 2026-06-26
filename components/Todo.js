@@ -18,6 +18,10 @@ export default class Todo {
     this._todoDeleteButton.addEventListener("click", () => {
       this._todoElement.remove();
     });
+
+    this._todoCheckbox.addEventListener("change", () => {
+      this._completed = this._todoCheckbox.checked;
+    });
   }
 
   _setDate() {
