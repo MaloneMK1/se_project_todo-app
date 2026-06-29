@@ -4,7 +4,7 @@ The Simple Todo App is a lightweight task manager for creating, completing, and 
 
 ## Functionality
 
-The app renders an initial list of todos from JavaScript data. Users can open a popup form, create a new todo with an optional due date, mark todos as complete or incomplete, and delete todos from the list. New todos receive unique IDs so their checkboxes and labels stay correctly connected.
+The app renders an initial list of todos from JavaScript data. Users can open a popup form, create a new todo with an optional due date, mark todos as complete or incomplete, and delete todos from the list. A counter tracks completed and total todos as the list changes. New todos receive unique IDs so their checkboxes and labels stay correctly connected.
 
 ## Technology
 
